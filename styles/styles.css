@@ -22,14 +22,10 @@ img{
     
 }
  
-#srcbar{
-    display: block;
-    margin: auto;
-}
+
 
 #leftnav{
-    float: left;
-    
+    float: left;   
     
 }
 
@@ -38,24 +34,100 @@ img{
 }
 
 #searchbar{
+    clear: both;
+    display: flex;    
+    border: 1px solid black;
+    flex-direction: column;
     
     
 }
 
+.btncontainer{
+    display: flex;
+    justify-content: center;
+      
+}
 
+.btncontainer input{
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #F2F2F2;
+}
+
+.srcbar{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px;    
+}
+
+
+}
+
+.srcbar input{
+    text-rendering: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;    
+    box-sizing: border-box;
+    padding: 1px 2px;
+    display: inline-block;
+    margin: 0em;
+    font: 400 13.3333px arial;
+    width: 561px;
+    font-size: 16px;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1px 2px;
+}
 
 #footer{
     bottom: 0;    
     height: 35px;
     position: fixed;
     width: 100%;
+    background-color: #f4f4f4;
     
 }
       
 .leftfooter{
     float: left;
+    
 }
+
+
 
 .rightfooter{
     float: right;
 }
+
